@@ -129,6 +129,7 @@ class nginx::params {
         'conf_dir'    => '/usr/local/etc/nginx',
         'daemon_user' => 'www',
         'root_group'  => 'wheel',
+        'log_user'    => 'root',
         'log_group'   => 'wheel',
       }
     }
